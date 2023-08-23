@@ -16,7 +16,7 @@ app.get('/products', async (req, res) => {
 
     res.send(products);
 });
-// Url: http://localhost:8080/products 
+// Url to try the program: http://localhost:8080/products 
 
 app.get('/products/:productCode', async (req, res) => {
     const productCode = req.params.productCode;
